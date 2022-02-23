@@ -29,9 +29,15 @@ public class Array_Bidimensional {
 		matriz[3][3]=48;
 		matriz[3][4]=10;
 		
-		System.out.println(matriz[0][3]);
-		
-
-	}
+		for (int i = 0; i < 4; i++) {
+			
+			System.out.println();  //para que salga en forma de tabla
+			
+			for (int j = 0; j < 5; j++) {
+				
+				System.out.print(matriz[i][j] + " ");				
+			}			
+			}
+		}
 
 }
